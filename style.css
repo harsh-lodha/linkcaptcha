@@ -1,0 +1,42 @@
+.container #input-el{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container #save-el{
+    width: 100%;
+    box-sizing: border-box;
+    background: darkgreen;
+    color: #fff;
+    border-radius: 3px ;
+}
+
+.container #del-el{
+    width: 100%;
+    box-sizing: border-box;
+    background: skyblue;
+    color: red;
+    border-radius: 3px ;
+}
+
+.container #add-el{
+    width: 100%;
+    box-sizing: border-box;
+    background: gray;
+    color: white;
+    border-radius: 3px ;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #5f9341;
+}

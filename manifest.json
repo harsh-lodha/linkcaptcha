@@ -1,0 +1,17 @@
+{
+    "name": "Link Saver",
+    "manifest_version" : 3,
+    "description": "Save links to your favorite sites",
+    "version": "1.0",
+    "author": "Harsh Lodha",
+    "action":
+    {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": ["tabs"],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+      ]
+}
